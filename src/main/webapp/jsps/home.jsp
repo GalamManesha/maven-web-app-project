@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>KK FUNDA Home Page</title>
+<title>Makeover Home Page</title>
 <link href="images/kkfunda.jpg" rel="icon">
 </head>
 </head>
@@ -34,7 +34,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 		<img src="images/kkfunda.jpg" alt="" width="100">
 	</span>
 	<span style="font-weight: bold;">
-		KK FUNDA, 
+		Manesha, 
 		Martha Halli, Banglore,
 		Bangalore,
 		+91-9676831734,+91-9676831734
@@ -47,7 +47,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
 <hr>
 <hr>
-<p align=center>KK FUNDA Training, Development Center.</p>
+<p align=center>Makeover by maneesha Training, Development Center.</p>
 <p align=center><small>Copyrights 2024 by <a href="google.com/">KK FUNDA</a> </small></p>
 
 </body>
