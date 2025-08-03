@@ -10,7 +10,7 @@
 </head>
 <body>
 <h1 align="center">Welcome to manesha makeover</h1>
-<h1 align="center"> manesha makeover from khammam khanapuram  </h1>
+<h1 align="center"> manesha makeover from khammam khanapuram balaji nagar </h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
