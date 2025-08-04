@@ -9,8 +9,8 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to ganesh training center</h1>
-<h1 align="center"> from hyderabad kukatpally </h1>
+<h1 align="center">Welcome to manesha training center</h1>
+<h1 align="center"> from khammam </h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
