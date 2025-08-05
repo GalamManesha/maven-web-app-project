@@ -14,7 +14,7 @@ node
   stage('git checkout')
   {
     notifyBuild('STARTED')
-    git 'https://github.com/GalamManesha/maven-web-app-project.git'
+    git branch: 'master', url: 'https://github.com/kkdevopsb5/maven-webapplication-project-kkfunda.git'
   } 
 
     stage('COMPILE')
@@ -43,8 +43,8 @@ node
       
       sh """
 
-      curl -u kk:password \
---upload-file /var/lib/jenkins/workspace/jio-scripted-way-PL/target/maven-web-application.war \
+      curl -u manesha:password \
+--upload-file /var/lib/jenkins/workspace/MBPL-First/target/maven-web-application.war \
 "http://47.129.45.5:8080/manager/text/deploy?path=/maven-web-application&update=true"
           
         """
