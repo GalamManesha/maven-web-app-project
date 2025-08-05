@@ -14,7 +14,7 @@ node
   stage('git checkout')
   {
     notifyBuild('STARTED')
-    git branch: 'master', url: 'https://github.com/GalamManesha/maven-web-app-project.git'
+    git 'https://github.com/GalamManesha/maven-web-app-project.git'
   } 
 
     stage('COMPILE')
