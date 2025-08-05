@@ -6,15 +6,15 @@ node
    echo "node name is: ${env.NODE_NAME}"
 
 
-   // /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven-3.9.9/bin
-   def mavenHome=tool name: "maven-3.9.9"
+   // /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven3.9.9/bin
+   def mavenHome=tool name: "maven3.9.9"
     try
     {
 
   stage('git checkout')
   {
     notifyBuild('STARTED')
-    git branch: 'master', url: 'https://github.com/kkdevopsb5/maven-webapplication-project-kkfunda.git'
+    git branch: 'master', url: 'https://github.com/GalamManesha/maven-web-app-project.git'
   } 
 
     stage('COMPILE')
@@ -45,7 +45,7 @@ node
 
       curl -u kk:password \
 --upload-file /var/lib/jenkins/workspace/jio-scripted-way-PL/target/maven-web-application.war \
-"http://3.109.2.100:9090/manager/text/deploy?path=/maven-web-application&update=true"
+"http://47.129.45.5:8080/manager/text/deploy?path=/maven-web-application&update=true"
           
         """
     }
